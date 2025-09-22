@@ -45,6 +45,7 @@ Start a root shell to perform administrative tasks:
 ```bash
 sudo -i
 ```
+Note- Root mode is not strictly necessary for cloning or creating folders in your home directory.
 
 > The shell prompt changes to `root@hostname:#`. All commands are now executed with root privileges.
 
@@ -108,5 +109,70 @@ ls
 ```
 
 > This directory contains all Verilog source files and corresponding testbenches needed for simulations.
+
+---
+
+## **Using GTKWave for Simulation and Waveform Analysis**
+
+This section demonstrates the process of compiling a Verilog design, running the simulation, and visualizing signal waveforms using **Icarus Verilog** and **GTKWave**.
+
+---
+
+### **Step 1: Navigate to the Verilog Files Directory**
+
+```bash
+cd /home/<username>/VLSI/sky130RTLDesignAndSynthesisWorkshop/verilog_files
+```
+
+> Replace `<username>` with your Ubuntu username. This directory contains the Verilog source files and testbenches for the lab exercises.
+
+---
+
+### **Step 2: Compile the Design and Testbench**
+
+```bash
+iverilog good_mux.v tb_good_mux.v
+```
+
+> This command compiles the multiplexer module (`good_mux.v`) along with its testbench (`tb_good_mux.v`).
+
+---
+
+### **Step 3: Verify Compilation Output**
+
+```bash
+ls
+```
+
+* After compilation, a file named `a.out` will appear in the directory.
+* This is the executable produced by Icarus Verilog.
+
+---
+
+### **Step 4: Run the Simulation**
+
+```bash
+./a.out
+```
+
+> Running this executable performs the simulation and generates a waveform file (`tb_good_mux.vcd`).
+
+---
+
+### **Step 5: Open GTKWave to Visualize Signals**
+
+```bash
+gtkwave tb_good_mux.vcd
+```
+
+* GTKWave will launch and display the waveform corresponding to the simulation.
+* Users can analyze the behavior of the 2-to-1 multiplexer by observing signal transitions for different input combinations.
+
+---
+
+### **Notes**
+
+* Screenshots of GTKWave should include **user ID and timestamp** for submission.
+* The waveform viewer allows verification of correct output for all possible inputs.
 
 ---
