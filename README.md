@@ -167,12 +167,90 @@ gtkwave tb_good_mux.vcd
 
 * GTKWave will launch and display the waveform corresponding to the simulation.
 * Users can analyze the behavior of the 2-to-1 multiplexer by observing signal transitions for different input combinations.
+  GRAPH PIC
+---
+
+
+## **Code Analysis for 2-to-1 Multiplexer**
+
+This section describes the Verilog implementation of the **2-to-1 multiplexer** and its corresponding **testbench** used for simulation.
 
 ---
 
-### **Notes**
+### **Testbench Code (`tb_good_mux.v`)**
 
-* Screenshots of GTKWave should include **user ID and timestamp** for submission.
-* The waveform viewer allows verification of correct output for all possible inputs.
+```verilog
+`timescale 1ns / 1ps
+module tb_good_mux;
+
+  // Inputs
+  reg i0, i1, sel;
+
+  // Outputs
+  wire y;
+
+  // Instantiate the Unit Under Test (UUT)
+  good_mux uut (
+    .sel(sel),
+    .i0(i0),
+    .i1(i1),
+    .y(y)
+  );
+
+  initial begin
+    $dumpfile("tb_good_mux.vcd");   // Create waveform file
+    $dumpvars(0, tb_good_mux);      // Dump all variables
+    // Initialize inputs
+    sel = 0;
+    i0 = 0;
+    i1 = 0;
+    #300 $finish;                   // End simulation after 300 ns
+  end
+
+  // Input stimulus
+  always #75 sel = ~sel;
+  always #10 i0 = ~i0;
+  always #55 i1 = ~i1;
+
+endmodule
+```
+
+**Explanation:**
+
+* Initializes inputs and toggles them at different intervals to test all possible input combinations.
+* Generates a `.vcd` file for waveform visualization in GTKWave.
 
 ---
+
+### **Multiplexer Module (`good_mux.v`)**
+
+```verilog
+module good_mux (
+    input i0, 
+    input i1, 
+    input sel, 
+    output reg y
+);
+
+always @(*) begin
+    if (sel)
+        y <= i1;
+    else
+        y <= i0;
+end
+
+endmodule
+```
+
+**Explanation:**
+
+* Implements a **2-to-1 multiplexer**.
+* Output `y` follows `i1` when `sel = 1` and `i0` when `sel = 0`.
+* Uses a combinational `always @(*)` block to ensure the output updates immediately when inputs change.
+
+---
+
+PICTURE FOR CODE
+
+---
+
