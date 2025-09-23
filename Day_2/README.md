@@ -5,8 +5,8 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 <p align="center">
   <img src="https://img.shields.io/badge/Program-VSD-blue" alt="Program"/>
-  <img src="https://img.shields.io/badge/Week-<week_number>-green" alt="Week"/>
-  <img src="https://img.shields.io/badge/<Topic_Label>-orange" alt="Topic"/>
+  <img src="https://img.shields.io/badge/Week-1-green" alt="Week"/>
+  <img src="https://img.shields.io/badge/RTL_Design-orange" alt="Topic"/>
 </p>
 
 
