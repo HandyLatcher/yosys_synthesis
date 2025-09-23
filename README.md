@@ -254,3 +254,147 @@ PICTURE FOR CODE
 
 ---
 
+
+### **Getting Started with Yosys and Gate Libraries**
+
+#### **What is Yosys?**
+
+Yosys is an open-source digital synthesis tool widely used for turning Verilog designs into gate-level representations. Essentially, it transforms your high-level HDL description into a blueprint of actual logic gates, ready for hardware implementation.
+
+---
+
+#### **Key Capabilities of Yosys**
+
+* **Synthesis:** Converts Verilog code into a network of logic gates.
+* **Optimization:** Refines the design for faster operation, smaller area, or lower power.
+* **Technology Mapping:** Matches logical gates to real hardware cells from standard libraries.
+* **Verification:** Confirms that the synthesized circuit behaves as intended.
+* **Extensibility:** Allows custom scripts and flows for specialized design needs.
+
+---
+
+#### **Why Gate Libraries Have Multiple Variants**
+
+Standard cell libraries (often `.lib` files) provide multiple versions of the same logic gate to suit different design goals. For example, there can be several types of an AND gate, each optimized for:
+
+* **Speed:** High-performance gates for timing-critical paths.
+* **Power Consumption:** Low-power gates to save energy.
+* **Area:** Compact gates to reduce chip size.
+* **Drive Strength:** Stronger gates to drive large fan-outs.
+* **Signal Quality:** Gates designed for noise-sensitive or high-speed circuits.
+
+During synthesis, Yosys selects the most suitable gate “flavor” based on your design’s priorities, balancing speed, power, area, and reliability.
+
+---
+
+
+     
+## **Synthesis Lab: 2-Input MUX with Yosys**
+
+Learn how to synthesize a simple 2-input multiplexer (**good\_mux**) using Yosys and map it to a standard cell library.
+
+---
+
+### **Step 1: Launch Yosys**
+
+Open a terminal and start Yosys:
+
+```bash
+yosys
+```
+
+---
+
+### **Step 2: Load the Standard Cell Library**
+
+Yosys needs a `.lib` file to map your logic to actual gates. Use the following command:
+
+```yosys
+read_liberty -lib /path/to/your/library_file.lib
+```
+
+**Notes:**
+
+* Replace `/path/to/your/library_file.lib` with the location of your standard cell library (e.g., SkyWater 130nm or any other library).
+* This file contains all the gates Yosys can use for mapping.
+
+---
+
+### **Step 3: Read Your Verilog Design**
+
+Load your 2-input MUX Verilog code:
+
+```yosys
+read_verilog /path/to/your/verilog_files/good_mux.v
+```
+
+**Notes:**
+
+* Replace `/path/to/your/verilog_files/` with the folder containing your Verilog module.
+* Ensure the filename matches your module definition, e.g., `good_mux.v`.
+
+---
+
+### **Step 4: Synthesize the Design**
+
+Convert the high-level Verilog into a gate-level netlist:
+
+```yosys
+synth -top good_mux
+```
+
+* The `-top` flag tells Yosys which module is the top-level design.
+* Yosys performs **logic optimization** and prepares the design for mapping.
+
+---
+
+### **Step 5: Technology Mapping**
+
+Map the synthesized logic to real library cells using ABC:
+
+```yosys
+abc -liberty /path/to/your/library_file.lib
+```
+
+* Yosys replaces generic logic with **real gates** from the library.
+* Optimization is applied based on timing, area, and power specifications in the library.
+
+---
+
+### **Step 6: Visualize the Gate-Level Netlist**
+
+Inspect the synthesized netlist graphically:
+
+```yosys
+show
+```
+
+* This generates a **circuit diagram** showing how the inputs, outputs, and internal gates are connected.
+* Useful for verifying your FSM or MUX logic visually.
+
+---
+
+### **Step 7: Export the Synthesized Netlist (Optional)**
+
+Write the final gate-level netlist to a Verilog file:
+
+```yosys
+write_verilog -noattr -norename good_mux_netlist.v
+```
+
+**Options:**
+
+* `-noattr` → Removes synthesis attributes for a clean netlist.
+* `-norename` → Preserves your original signal names instead of using internal numbers.
+
+---  
+
+Lab Summary
+
+Explored the workflow of digital design, including writing Verilog code, creating testbenches, and running simulations.
+
+Performed the first Verilog simulation using Icarus Verilog and visualized circuit behavior with waveform tools.
+
+Analyzed the functionality of a 2-to-1 multiplexer at both behavioral and gate levels.
+
+Gained hands-on experience with Yosys, understanding how designs are synthesized and how standard cell libraries provide multiple gate options for optimizing speed, power, and area.
