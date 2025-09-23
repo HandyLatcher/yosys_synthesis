@@ -1,7 +1,5 @@
 # **RTL Design Week1 Overview**🚀
 
-This week covers the fundamentals of register-transfer level (RTL) design, including Verilog coding, simulation using Icarus Verilog, and basic logic synthesis with Yosys. The sessions guide through the complete RTL workflow, from writing and testing designs to synthesizing gate-level circuits.
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/Program-VSD-blue" alt="Program"/>
@@ -9,6 +7,7 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
   <img src="https://img.shields.io/badge/RTL_Design-orange" alt="Topic"/>
 </p>
 
+This week covers the fundamentals of register-transfer level (RTL) design, including Verilog coding, simulation using Icarus Verilog, and basic logic synthesis with Yosys. The sessions guide through the complete RTL workflow, from writing and testing designs to synthesizing gate-level circuits.
 
 ---
 
