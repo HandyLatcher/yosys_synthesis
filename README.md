@@ -420,12 +420,12 @@ write_verilog -noattr -norename good_mux_netlist.v
 
 Lab Summary🔄
 
-*Explored the workflow of digital design, including writing Verilog code, creating testbenches, and running simulations.
+* Explored the workflow of digital design, including writing Verilog code, creating testbenches, and running simulations.
 
-*Performed the first Verilog simulation using Icarus Verilog and visualized circuit behavior with waveform tools.
+* Performed the first Verilog simulation using Icarus Verilog and visualized circuit behavior with waveform tools.
 
-*Analyzed the functionality of a 2-to-1 multiplexer at both behavioral and gate levels.
+* Analyzed the functionality of a 2-to-1 multiplexer at both behavioral and gate levels.
 
-*Gained hands-on experience with Yosys, understanding how designs are synthesized and how standard cell libraries provide multiple gate options for optimizing speed, power, and area.
+* Gained hands-on experience with Yosys, understanding how designs are synthesized and how standard cell libraries provide multiple gate options for optimizing speed, power, and area.
 
 ---
