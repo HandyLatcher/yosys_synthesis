@@ -1,4 +1,13 @@
-Absolutely! Here’s a **fully rewritten, original version of Day 1**, including theory, lab overview, and workflow, in **formal third-person style**. This is ready for your GitHub Week 1 submission:
+## **RTL Design Week1 Overview**
+
+Introduction to RTL design with Verilog, simulation using Icarus Verilog, and basic synthesis using Yosys.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Program-VSD-blue" alt="Program"/>
+  <img src="https://img.shields.io/badge/Week-<week_number>-green" alt="Week"/>
+  <img src="https://img.shields.io/badge/<Topic_Label>-orange" alt="Topic"/>
+</p>
+
 
 ---
 
