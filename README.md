@@ -1,6 +1,7 @@
-## **RTL Design Week1 Overview**
+## **RTL Design Week1 Overview**🚀
 
 Introduction to RTL design with Verilog, simulation using Icarus Verilog, and basic synthesis using Yosys.
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Program-VSD-blue" alt="Program"/>
@@ -11,7 +12,7 @@ Introduction to RTL design with Verilog, simulation using Icarus Verilog, and ba
 
 ---
 
-# **Day 1: Fundamentals of RTL Design and Synthesis**
+# **Day 1: Fundamentals of RTL Design and Synthesis**🖥️
 
 The first day of the RTL design workshop introduces the essential concepts of digital circuit design at the register-transfer level (RTL). This session focuses on writing hardware descriptions using **Verilog**, verifying functionality with the open-source simulator **Icarus Verilog (iverilog)**, and performing basic **logic synthesis** with **Yosys**.
 
@@ -49,9 +50,6 @@ A testbench is an environment used to validate the design. It generates input st
 </p>
 
 ---
-Heading
-subh
-Workspace and Repository Preparation:
 
 ## **Week 1 Lab Setup: RTL Workshop (Root Mode)**
 
@@ -420,7 +418,7 @@ write_verilog -noattr -norename good_mux_netlist.v
 
 --- 
 
-Lab Summary
+Lab Summary🔄
 
 Explored the workflow of digital design, including writing Verilog code, creating testbenches, and running simulations.
 
@@ -429,3 +427,5 @@ Performed the first Verilog simulation using Icarus Verilog and visualized circu
 Analyzed the functionality of a 2-to-1 multiplexer at both behavioral and gate levels.
 
 Gained hands-on experience with Yosys, understanding how designs are synthesized and how standard cell libraries provide multiple gate options for optimizing speed, power, and area.
+
+---
