@@ -1,4 +1,4 @@
-## **RTL Design Week1 Overview**🚀
+# **RTL Design Week1 Overview**🚀
 
 Introduction to RTL design with Verilog, simulation using Icarus Verilog, and basic synthesis using Yosys.
 
