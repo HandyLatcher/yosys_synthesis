@@ -21,6 +21,10 @@ The design represents the hardware functionality described in Verilog code. It c
 **Testbench:**
 A testbench is an environment used to validate the design. It generates input stimuli, monitors outputs, and ensures that the circuit functions correctly under various scenarios.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/65df29b4-a2ae-4b34-9247-404fb1a3c3ee" alt="Image" width="800"/>
+</p>
+
 ---
 
 ## **2. Using Icarus Verilog for Simulation**
@@ -30,6 +34,10 @@ A testbench is an environment used to validate the design. It generates input st
 1. Compiling the Verilog design along with its testbench.
 2. Running the compiled simulation executable.
 3. Generating a waveform file (.vcd) to visualize signals in **GTKWave**.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1e8aeb69-1eac-4690-b3e4-fb68858c498f" alt="Image" width="800"/>
+</p>
 
 ---
 Heading
@@ -167,9 +175,14 @@ gtkwave tb_good_mux.vcd
 
 * GTKWave will launch and display the waveform corresponding to the simulation.
 * Users can analyze the behavior of the 2-to-1 multiplexer by observing signal transitions for different input combinations.
-  GRAPH PIC
+  
 ---
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/be358150-78e6-4d67-9514-6d36b7189501" alt="Image" width="800"/>
+</p>
+
+---
 
 ## **Code Analysis for 2-to-1 Multiplexer**
 
@@ -250,7 +263,10 @@ endmodule
 
 ---
 
-PICTURE FOR CODE
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8294482e-9151-49a9-86ac-e7e9dec04ace" alt="Image" width="800"/>
+</p>
+
 
 ---
 
@@ -374,6 +390,12 @@ show
 
 ---
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8294482e-9151-49a9-86ac-e7e9dec04ace" alt="Image" width="800"/>
+</p>
+
+---
+
 ### **Step 7: Export the Synthesized Netlist (Optional)**
 
 Write the final gate-level netlist to a Verilog file:
@@ -387,7 +409,7 @@ write_verilog -noattr -norename good_mux_netlist.v
 * `-noattr` → Removes synthesis attributes for a clean netlist.
 * `-norename` → Preserves your original signal names instead of using internal numbers.
 
----  
+--- 
 
 Lab Summary
 
