@@ -232,15 +232,16 @@ gtkwave tb_dff_asyncres.vcd
   <img src="https://github.com/user-attachments/assets/155c7fcb-5728-4e61-a248-cdf81af0f6b0" width="800" />
 </p>
 
-````markdown
+
 # Synthesis with Yosys ⚙️
 
 ## Step-by-Step Workflow 🛠️
 
-1. **Start Yosys**  
-```bash
+1. **Start Yosys**
+
+```tcl
 yosys
-````
+```
 
 2. **Read the Liberty library**
 
@@ -283,7 +284,7 @@ show
 
 ---
 
-##**Icarus Verilog Simulation for synchronous reset:**
+**Icarus Verilog Simulation for synchronous reset:**
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7d62de27-1679-4800-94be-e5292c37451e" width="800" />
@@ -291,7 +292,7 @@ show
 
 ---
 
-##**A special opimization💾**
+**A special opimization💾**
 Multiplier without any hardware with just wires.
 
 
