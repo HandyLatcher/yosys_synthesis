@@ -110,12 +110,12 @@ The `flatten` command in Yosys collapses the hierarchy, allowing whole-design op
 
 **An example of Flattened Synthesis:**
 
-Code:
+**Code:**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6db70630-1259-4193-8105-b987a1694772" width="800" />
 </p>
 
-Netlist:
+**Netlist:**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7000614f-efae-485b-a370-1a0512af3c7c" width="800" />
 </p>
