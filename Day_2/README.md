@@ -11,3 +11,19 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 
 ---
+
+# Day 2: Timing, Synthesis & Flip-Flop Optimization
+
+Day 2 of the RTL Workshop focuses on three key topics:
+
+- **Timing Libraries**  
+  Introduction to `.lib` files in open-source PDKs, e.g., `sky130_fd_sc_hd__tt_025C_1v80.lib`, covering delays, setup/hold times, and drive strengths for accurate timing analysis.
+
+- **Synthesis Approaches**  
+  Comparison of **hierarchical** vs **flat** synthesis, highlighting modular management versus global optimization trade-offs.
+
+- **Efficient Flip-Flop Coding**  
+  Best practices for RTL flip-flop design to optimize area, power, and timing while avoiding hazards.
+
+The session provides a clear understanding of timing data usage, synthesis methodology selection, and optimized flip-flop coding.
+
