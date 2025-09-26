@@ -88,6 +88,7 @@ Netlist:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2fbdbac1-93da-4fa3-8fb5-e19dd7f48df4" width="800" />
 </p>
+
 ---
 
 ## Flattened Synthesis ⚡
@@ -118,6 +119,7 @@ Netlist:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7000614f-efae-485b-a370-1a0512af3c7c" width="800" />
 </p>
+
 ---
 
 ##**Sub Module📂**
@@ -197,9 +199,9 @@ module dff_syncres (
 endmodule
 ```
 
-* **Synchronous reset:** Takes effect only on the clock edge.
----
+**Synchronous reset:** Takes effect only on the clock edge.
 
+---
 
 # Simulation and Synthesis Workflow ⚙️
 
@@ -284,9 +286,12 @@ show
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7d62de27-1679-4800-94be-e5292c37451e" width="800" />
 </p>
+
 ---
+
 ##**A special opimization💾**
 Multiplier without any hardware with just wires.
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/13b1cf24-c060-4df9-bca7-6c3965301bab" width="800" />
@@ -295,7 +300,6 @@ Multiplier without any hardware with just wires.
 ---
 
 # Summary 📚
-
 This guide covers essential aspects of Verilog design, including module organization, flip-flop coding styles, simulation with Icarus Verilog, and synthesis with Yosys. Practice these workflows to strengthen your RTL design and digital synthesis skills.
 
 
