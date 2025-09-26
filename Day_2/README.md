@@ -78,13 +78,13 @@ Tools like Yosys process each module independently, using commands such as `hier
 - Cross-module optimizations are limited.  
 - Reporting may require additional configuration.  
 
-##**An example of Hierarchical Synthesis:**
+**An example of Hierarchical Synthesis:**
 Code:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/eef57193-3a60-4f6a-ba30-a770c3b616d9" width="800" />
 </p>
 
-Netlist:
+**Netlist:**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2fbdbac1-93da-4fa3-8fb5-e19dd7f48df4" width="800" />
 </p>
@@ -108,7 +108,7 @@ The `flatten` command in Yosys collapses the hierarchy, allowing whole-design op
 - Loss of hierarchy complicates debugging and reporting.  
 - Can increase memory usage and netlist complexity.
 
-##**An example of Flattened Synthesis:**
+**An example of Flattened Synthesis:**
 
 Code:
 <p align="center">
@@ -122,8 +122,10 @@ Netlist:
 
 ---
 
-##**Sub Module📂**
+**Sub Module📂**
+
 (1)It is used when we have multiple instances of same module
+
 (2)It is also used for Divide and Conquer technique
 
 <p align="center">
@@ -207,7 +209,7 @@ endmodule
 
 ## Icarus Verilog Simulation 🖥️
 
-##**For asynchronous reset**:
+**For asynchronous reset**:
 
 1. **Compile your design and testbench**  
 ```bash
