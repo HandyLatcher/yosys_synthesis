@@ -29,7 +29,7 @@ The session provides a clear understanding of timing library usage, synthesis me
 
 ---
 
-#### Timing Libraries: SKY130 PDK Overview ⚙️
+## Timing Libraries: SKY130 PDK Overview ⚙️
 
 **SKY130 PDK**  
 The SKY130 Process Design Kit is an open-source PDK based on SkyWater Technology's 130nm CMOS process. It provides essential models and libraries for IC design, including timing, power, and process variation data.  
@@ -61,7 +61,7 @@ gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 
 ## Hierarchical vs. Flattened Synthesis ⚙️
 
-#### Hierarchical Synthesis
+## Hierarchical Synthesis
 
 **Definition:**  
 Retains the module hierarchy as defined in RTL, synthesizing modules separately.
@@ -91,7 +91,7 @@ Code:
 
 ---
 
-#### Flattened Synthesis ⚡
+## Flattened Synthesis ⚡
 
 **Definition:**  
 Merges all modules into a single flat netlist, eliminating hierarchy.
@@ -140,7 +140,7 @@ Flip-flops are fundamental sequential elements in digital design, used to store 
 
 ---
 
-#### Asynchronous Reset D Flip-Flop 🛑
+## Asynchronous Reset D Flip-Flop 🛑
 
 ```verilog
 module dff_asyncres (
@@ -162,7 +162,7 @@ endmodule
 
 ---
 
-#### Asynchronous Set D Flip-Flop ⚡
+## Asynchronous Set D Flip-Flop ⚡
 
 ```verilog
 module dff_async_set (
@@ -183,7 +183,7 @@ endmodule
 
 ---
 
-#### Synchronous Reset D Flip-Flop ⏱️
+## Synchronous Reset D Flip-Flop ⏱️
 
 ```verilog
 module dff_syncres (
@@ -207,7 +207,7 @@ endmodule
 
 ## Simulation and Synthesis Workflow ⚙️
 
-#### Icarus Verilog Simulation 🖥️
+## Icarus Verilog Simulation 🖥️
 
 **For asynchronous reset**:
 
@@ -235,7 +235,7 @@ gtkwave tb_dff_asyncres.vcd
 
 ## Synthesis with Yosys ⚙️
 
-#### Step-by-Step Workflow 🛠️
+## Step-by-Step Workflow 🛠️
 
 1. **Start Yosys**
 
@@ -284,7 +284,7 @@ show
 
 ---
 
-#### Icarus Verilog Simulation for synchronous reset:
+## Icarus Verilog Simulation for synchronous reset:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7d62de27-1679-4800-94be-e5292c37451e" width="800" />
@@ -292,7 +292,7 @@ show
 
 ---
 
-#### A special opimization:💾
+## A special opimization:💾
 Multiplier without any hardware and with just wires.
 
 
