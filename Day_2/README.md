@@ -12,7 +12,7 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 ---
 
-#### Day 2: Timing, Synthesis & Flip-Flop Optimization ⏱️
+## Day 2: Timing, Synthesis & Flip-Flop Optimization ⏱️
 
 Day 2 of the RTL Workshop covers three key topics:
 
