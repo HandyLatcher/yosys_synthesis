@@ -14,13 +14,13 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 ### **Day 4: Gate-Level Simulation, Verilog Assignments, and Synthesis-Simulation Mismatch** 🛠️⚡
 
-(1) **Gate-Level Simulation (GLS)** 🔹
+(1) **Gate-Level Simulation (GLS)**
 Covers how synthesized gate-level netlists behave and the methods to simulate them accurately.
 
-(2) **Blocking vs. Non-Blocking Assignments in Verilog** 🔹
+(2) **Blocking vs. Non-Blocking Assignments in Verilog**
 Explains the differences between `=` (blocking) and `<=` (non-blocking) assignments, including timing effects and correct usage in sequential and combinational logic.
 
-(3) **Synthesis-Simulation Mismatch** 🔹
+(3) **Synthesis-Simulation Mismatch**
 Discusses common causes of mismatches between RTL simulation and post-synthesis behavior, along with strategies to reduce or avoid such discrepancies.
 
 The session combines **theoretical explanations** with **hands-on lab exercises** to reinforce the concepts.
