@@ -78,6 +78,6 @@ Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools �
 <h2>📜 License</h2>
 <p>This project is licensed under the <b>Creative Commons Attribution 4.0 International License (CC BY 4.0)</b>.</p>
 
-<p>👨‍💻 Author: <i>Aryansh Mehrotra</i> ✨</p>
+<p><p>👨‍💻 Author: <i><a href="https://github.com/HandyLatcher">Aryansh Mehrotra</a></i> ✨</p>
 
 </div>
