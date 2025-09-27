@@ -68,25 +68,29 @@ Each day includes:
 ---
 
 <p align="center">
+<div align="center">
 
-## 🙏 Acknowledgements
+<h2>🙏 Acknowledgements</h2>
 
-Special thanks to:
+<p>Special thanks to:</p>
 
-* [**Shon Taware**](https://www.linkedin.com/in/shon-taware/details/skills/) for RTL design insights  
-* [**Kunal Ghosh**](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) for leading open-source VLSI education initiatives  
-* Open-source contributors of **Yosys**, **Sky130 PDK**, and related tools
+<ul>
+  <li><a href="https://www.linkedin.com/in/shon-taware/details/skills/">Shon Taware</a> for RTL design insights</li>
+  <li><a href="https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/">Kunal Ghosh</a> for leading open-source VLSI education initiatives</li>
+  <li>Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools</li>
+</ul>
 
-## 🔗 Useful Links
+<h2>🔗 Useful Links</h2>
 
-- [Yosys](http://www.clifford.at/yosys/) – RTL synthesis  
-- [Icarus Verilog](http://iverilog.icarus.com/) – Verilog simulation  
-- [SkyWater 130nm Open PDK](https://github.com/google/skywater-pdk) – Open-source process design kit
+<ul>
+  <li><a href="http://www.clifford.at/yosys/">Yosys</a> – RTL synthesis</li>
+  <li><a href="http://iverilog.icarus.com/">Icarus Verilog</a> – Verilog simulation</li>
+  <li><a href="https://github.com/google/skywater-pdk">SkyWater 130nm Open PDK</a> – Open-source process design kit</li>
+</ul>
 
-## 📜 License
+<h2>📜 License</h2>
+<p>This project is licensed under the <b>Creative Commons Attribution 4.0 International License (CC BY 4.0)</b>.</p>
 
-This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+<p>👨‍💻 Author: <i>abc</i></p>
 
-👨‍💻 Author: *Aryansh Mehrotra*
-
-</p>
+</div>
