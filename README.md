@@ -78,7 +78,7 @@ Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools
 <h2>🔗 Useful Links</h2>
 
 <p>
-<a href="http://www.clifford.at/yosys/">Yosys</a> – RTL synthesis<br>
+<a href="[http://www.cdgfdegegd.at/yosys/](https://github.com/YosysHQ/yosys)">Yosys</a> – RTL synthesis<br>
 <a href="http://iverilog.icarus.com/">Icarus Verilog</a> – Verilog simulation<br>
 <a href="https://github.com/google/skywater-pdk">SkyWater 130nm Open PDK</a> – Open-source process design kit
 </p>
@@ -86,6 +86,6 @@ Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools
 <h2>📜 License</h2>
 <p>This project is licensed under the <b>Creative Commons Attribution 4.0 International License (CC BY 4.0)</b>.</p>
 
-<p>👨‍💻 Author: <i>abc</i></p>
+<p>👨‍💻 Author: <i>Aryansh Mehrotraw</i></p>
 
 </div>
