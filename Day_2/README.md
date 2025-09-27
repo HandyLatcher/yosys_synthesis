@@ -292,7 +292,7 @@ show
 
 ---
 
-# A special opimization💾
+## A special opimization💾
 Multiplier without any hardware and with just wires.
 
 
