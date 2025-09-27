@@ -306,8 +306,9 @@ endmodule
 **Lab 8: Synthesis Result of Lab 7**
 
 <p align="center">
-  <img src="FULL_IMAGE_URL_HERE" width="800" alt="Incomplete Case Statement Output" />
+  <img src="https://github.com/user-attachments/assets/a905e1fd-8514-40fb-88ed-3062357ba376" width="800" alt="Image" />
 </p>
+
 
 ---
 
