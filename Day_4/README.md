@@ -12,7 +12,7 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 ---
 
-### **Day 4: Gate-Level Simulation, Verilog Assignments, and Synthesis-Simulation Mismatch** 🛠️⚡
+#**Day 4: Gate-Level Simulation, Verilog Assignments, and Synthesis-Simulation Mismatch** 🛠️⚡
 
 (1) **Gate-Level Simulation (GLS)**
 Covers how synthesized gate-level netlists behave and the methods to simulate them accurately.
@@ -26,8 +26,6 @@ Discusses common causes of mismatches between RTL simulation and post-synthesis 
 The session combines **theoretical explanations** with **hands-on lab exercises** to reinforce the concepts.
 
 ---
-
-# Day 4: Gate-Level Simulation & Post-Synthesis Validation
 
 ## 1. Gate-Level Simulation (GLS) ⚡
 
@@ -73,7 +71,7 @@ Sometimes the **behavior seen in RTL simulation** differs from what occurs in **
 ---
 
 
-# Blocking vs. Non-Blocking Assignments in Verilog ⚡
+## Blocking vs. Non-Blocking Assignments in Verilog ⚡
 
 Verilog provides two ways to assign values within procedural blocks, each with different timing and use cases.
 
@@ -115,7 +113,7 @@ end
 
 ---
 
-##**Labs**
+## **Labs**
 
 # Lab 1: 2-to-1 Multiplexer Using Ternary Operator 🔹
 
@@ -146,7 +144,7 @@ endmodule
 
 ---
 
-# Lab 2: Synthesizing the 2:1 MUX Using Yosys ⚡
+## Lab 2: Synthesizing the 2:1 MUX Using Yosys ⚡
 
 **Objective:**  
 Generate a **gate-level netlist** for the 2:1 multiplexer from Lab 1 using the Yosys synthesis flow.
@@ -183,7 +181,7 @@ write_verilog -noattr ternary_operator_mux_net.v
 
 ---
 
-# Lab 3: Gate-Level Simulation (GLS) of the MUX ⚙️
+## Lab 3: Gate-Level Simulation (GLS) of the MUX ⚙️
 
 **Objective:**  
 Run a **Gate-Level Simulation (GLS)** on the synthesized 2:1 multiplexer to verify its functionality after synthesis.
@@ -213,7 +211,7 @@ iverilog /path/to/primitives.v \
 ---
 
 
-# Lab 4: Bad MUX Example (Common Pitfalls) ⚠️
+## Lab 4: Bad MUX Example (Common Pitfalls) ⚠️
 
 **Objective:**  
 Highlight common mistakes when coding a multiplexer in Verilog and demonstrate the corrected approach.
@@ -261,7 +259,7 @@ end
 
 ---
 
-# Lab 5: Gate-Level Simulation of bad_mux ⚠️
+## Lab 5: Gate-Level Simulation of bad_mux ⚠️
 
 **Objective:**  
 Run **Gate-Level Simulation (GLS)** on the `bad_mux` module.  
@@ -283,7 +281,7 @@ Demonstrate a common pitfall when using **blocking assignments (`=`)** in combin
 
 ---
 
-### 🚫 Problematic Verilog Code:
+## 🚫 Problematic Verilog Code:
 ```verilog
 module blocking_caveat (
     input a,
@@ -306,7 +304,7 @@ endmodule
 
 ---
 
-### ✅ Corrected Verilog Code:
+## ✅ Corrected Verilog Code:
 
 ```verilog
 always @ (*) begin
@@ -333,7 +331,7 @@ end
 ---
 
 
-# Lab 7: Synthesis of the Blocking Caveat Module ⚡
+## Lab 7: Synthesis of the Blocking Caveat Module ⚡
 
 **Objective:**  
 Synthesize the **corrected `blocking_caveat` module** to generate a gate-level netlist and observe its behavior.
@@ -369,7 +367,7 @@ write_verilog -noattr blocking_caveat.v
 
 ---
 
-# Summary of Key Concepts ✅
+## Summary of Key Concepts ✅
 
 - **Gate-Level Simulation (GLS):**  
   Validates the functionality, timing behavior, and test structures of the synthesized netlist.
