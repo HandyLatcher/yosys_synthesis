@@ -189,10 +189,8 @@ Run a **Gate-Level Simulation (GLS)** on the synthesized 2:1 multiplexer to veri
 **GLS Command:**
 
 ```bash
-iverilog /path/to/primitives.v \
-        /path/to/sky130_fd_sc_hd.v \
-        ternary_operator_mux.v \
-        testbench.v
+iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v testbench.v
+
 ````
 
 **Notes:**
