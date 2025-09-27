@@ -11,7 +11,7 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 ---
 
-# Day 5: Optimization in Verilog Synthesis ⚡
+## Day 5: Optimization in Verilog Synthesis ⚡
 
 **Overview:**  
 Day 5 focuses on **optimizing RTL for synthesis**. Key topics include:
@@ -23,7 +23,7 @@ Day 5 focuses on **optimizing RTL for synthesis**. Key topics include:
 
 ---
 
-# 1. Conditional Statements in Verilog: If-Else 🔹
+## 1. Conditional Statements in Verilog: If-Else 🔹
 
 **Purpose:**  
 Use if-else blocks to **control the flow of execution** based on a condition within procedural constructs like `always`, `initial`, or tasks/functions.
@@ -64,7 +64,7 @@ Nested conditional blocks make it easy to **evaluate several alternatives** in a
 
 ---
 
-# 2. Inferred Latches in Verilog ⚠️
+## 2. Inferred Latches in Verilog ⚠️
 
 **Overview:**  
 A **latch can be unintentionally inferred** when a combinational block does not assign a value to an output under all conditions. Synthesis tools then assume the signal must **hold its previous value**, creating a latch. This is often **not intended** by the designer.
@@ -112,7 +112,7 @@ endmodule
 
 ---
 
-# 3. Labs: If-Else and Case Statements ⚙️
+## 3. Labs: If-Else and Case Statements ⚙️
 
 ## Lab 1: Incomplete If Statement
 
@@ -149,7 +149,7 @@ endmodule
 
 ---
 
-# Lab 2: Synthesis Result of Lab 1 ⚡
+## Lab 2: Synthesis Result of Lab 1 ⚡
 
 **Objective:**  
 Synthesize the `incomp_if` module from Lab 1 to observe how incomplete conditional assignments are handled in gate-level synthesis.
@@ -178,7 +178,7 @@ write_verilog -noattr incomp_if.v
 
 ---
 
-# Lab 3: Nested If-Else Statement ⚙️
+## Lab 3: Nested If-Else Statement ⚙️
 
 **Objective:**  
 Demonstrate how missing assignments in nested if-else structures can lead to **unintended latches** during synthesis.
@@ -215,7 +215,7 @@ endmodule
 
 ---
 
-# Lab 4: Synthesis Result of Lab 3 ⚡
+## Lab 4: Synthesis Result of Lab 3 ⚡
 
 <p align="center">
   <img width="800" alt="Synthesis Result of Nested If-Else" src="https://github.com/user-attachments/assets/d8e78f5a-475e-43ac-a0fd-605aeb05e70a" />
@@ -223,7 +223,7 @@ endmodule
 
 ---
 
-# Lab 5: Complete Case Statement ⚙️
+## Lab 5: Complete Case Statement ⚙️
 
 **Objective:**  
 Demonstrate a **case statement** in Verilog with all possible input conditions covered to avoid inferred latches.
@@ -266,7 +266,7 @@ endmodule
 
 ---
 
-# Lab 7: Incomplete Case Statement ⚠️
+## Lab 7: Incomplete Case Statement ⚠️
 
 **Objective:**  
 Show how **missing branches in a case statement** can lead to **unintended latches** during synthesis.
@@ -303,7 +303,7 @@ endmodule
 
 ---
 
-**Lab 8: Synthesis Result of Lab 7**
+## Lab 8: Synthesis Result of Lab 7
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a905e1fd-8514-40fb-88ed-3062357ba376" width="800" alt="Image" />
@@ -312,7 +312,7 @@ endmodule
 
 ---
 
-# Lab 9: Partial Assignments in Case Statements ⚠️
+## Lab 9: Partial Assignments in Case Statements ⚠️
 
 **Objective:**  
 Demonstrate how **incomplete assignments within a case statement** can lead to **unintended latches** on outputs.
@@ -358,7 +358,7 @@ endmodule
 
 ---
 
-# Lab 10: Bad Case Handling⚠️
+## Lab 10: Bad Case Handling⚠️
 
 ```
 module bad_case (
@@ -382,7 +382,7 @@ endmodule
 
 ---
 
-# 4. Looping Magic in Verilog🔁
+## 4. Looping Magic in Verilog🔁
 
 In Verilog, `for` loops let you repeat a set of instructions multiple times inside procedural blocks like `always`, `initial`, or functions/tasks. Perfect for iterating over arrays or buses!  
 
@@ -434,7 +434,7 @@ This approach keeps the code compact and easy to maintain if the number of input
 ---
 
 
-#5. 🏗️Build Hardware Dynamically with Generate Blocks
+## 5. 🏗️Build Hardware Dynamically with Generate Blocks
 
 In Verilog, **generate blocks** let you create repetitive hardware structures automatically at compile time. Great for instantiating multiple modules or connecting wires systematically. Often paired with `for` loops and the `genvar` keyword.  
 
@@ -489,7 +489,7 @@ This method is perfect for scalable designs—add more gates without rewriting c
 
 ---
 
-# 6.➕ Ripple Carry Adder (RCA)
+## 6.➕ Ripple Carry Adder (RCA)
 
 A **Ripple Carry Adder** adds binary numbers using a chain of **full adders**. Each full adder handles one bit, and the **carry-out** of one stage feeds the **carry-in** of the next.  
 
@@ -513,7 +513,7 @@ A0 + B0 -> FA0 -> C1 -> FA1 -> ... -> FAn-1 -> Sum, Carry-out
 
 ---
 
-# 🧪 Lab 9: 4-to-1 MUX Using a For Loop
+## 🧪 Lab 9: 4-to-1 MUX Using a For Loop
 
 This lab demonstrates how to implement a **4-to-1 multiplexer** using a `for` loop in Verilog.  
 
@@ -540,7 +540,7 @@ module mux_generate (
 endmodule
 ````
 
-### ✅ Key Concepts
+## ✅ Key Concepts
 
 * The `for` loop iterates over all input lines.
 * The selected input is assigned to the output.
@@ -552,7 +552,7 @@ endmodule
 
 ---
 
-# 🧪 Lab 10: 8-to-1 Demultiplexer Using Case Statement
+## 🧪 Lab 10: 8-to-1 Demultiplexer Using Case Statement
 
 This lab demonstrates an **8-to-1 demultiplexer** using a `case` statement in Verilog.  
 
@@ -586,7 +586,7 @@ module demux_case (
 endmodule
 ````
 
-### ✅ Key Points
+## ✅ Key Points
 
 * `case` statement efficiently selects one output based on `sel`.
 * `y_int` ensures only the selected output is high at a time.
@@ -599,7 +599,7 @@ endmodule
 ---
 
 
-# 🧪 Lab 11: 8-to-1 Demultiplexer Using For Loop
+## 🧪 Lab 11: 8-to-1 Demultiplexer Using For Loop
 
 This lab demonstrates an **8-to-1 demultiplexer** using a `for` loop in Verilog.  
 
@@ -641,7 +641,7 @@ endmodule
 
 ---
 
-  # 🧪 Lab 12: 8-bit Ripple Carry Adder Using Generate Block
+## 🧪 Lab 12: 8-bit Ripple Carry Adder Using Generate Block
 
 This lab demonstrates an **8-bit Ripple Carry Adder (RCA)** implemented with a generate block and full adders in Verilog.  
 
@@ -703,7 +703,7 @@ endmodule
 
 ---
 
-# 📝Summary
+## 📝Summary
 
 - Always write **complete `if-else` and `case` statements** to avoid unintended latch behavior.  
 - Utilize **for loops** and **generate blocks** to create **scalable and synthesizable Verilog designs**.  
@@ -711,12 +711,4 @@ endmodule
 - Use lab exercises to **practice concepts**, verify designs, and analyze **synthesis results**.  
 
 ---
-
-
-
-
-
-
-
-
 
