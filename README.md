@@ -12,8 +12,6 @@ A complete hands-on journey into RTL design — starting from Verilog fundamenta
 
 ## 📖 Contents
 
-## 📖 Contents
-
 * [About the Workshop](https://github.com/HandyLatcher/yosys_synthesis/tree/main#-about-the-workshop)
 * [Prerequisites](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-prerequisites)
 * [Workshop Roadmap](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-workshop-roadmap)
@@ -83,8 +81,8 @@ Each day includes:
 <h2>🔗 Useful Links</h2>
 
 <ul>
-  <li><a href="http://www.clifford.at/yosys/">Yosys</a> – RTL synthesis</li>
-  <li><a href="http://iverilog.icarus.com/">Icarus Verilog</a> – Verilog simulation</li>
+  <li><a href="[http://www.clifford.at/yosys/](https://github.com/YosysHQ/yosys)">Yosys</a> – RTL synthesis</li>
+  <li><a href="[http://iverilog.icarus.com/](https://github.com/steveicarus/iverilog)">Icarus Verilog</a> – Verilog simulation</li>
   <li><a href="https://github.com/google/skywater-pdk">SkyWater 130nm Open PDK</a> – Open-source process design kit</li>
 </ul>
 
