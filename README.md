@@ -69,21 +69,19 @@ Each day includes:
 
 <h2>🙏 Acknowledgements</h2>
 
-<p>Special thanks to:</p>
-
-<ul>
-  <li><a href="https://www.linkedin.com/in/shon-taware/details/skills/">Shon Taware</a> for RTL design insights</li>
-  <li><a href="https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/">Kunal Ghosh</a> for leading open-source VLSI education initiatives</li>
-  <li>Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools</li>
-</ul>
+<p>Special thanks to:<br>
+<a href="https://www.linkedin.com/in/shon-taware/details/skills/">Shon Taware</a> for RTL design insights<br>
+<a href="https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/">Kunal Ghosh</a> for leading open-source VLSI education initiatives<br>
+Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools
+</p>
 
 <h2>🔗 Useful Links</h2>
 
-<ul>
-  <li><a href="http://www.clifford.at/yosys/">Yosys</a> – RTL synthesis</li>
-  <li><a href="http://iverilog.icarus.com/">Icarus Verilog</a> – Verilog simulation</li>
-  <li><a href="https://github.com/google/skywater-pdk">SkyWater 130nm Open PDK</a> – Open-source process design kit</li>
-</ul>
+<p>
+<a href="http://www.clifford.at/yosys/">Yosys</a> – RTL synthesis<br>
+<a href="http://iverilog.icarus.com/">Icarus Verilog</a> – Verilog simulation<br>
+<a href="https://github.com/google/skywater-pdk">SkyWater 130nm Open PDK</a> – Open-source process design kit
+</p>
 
 <h2>📜 License</h2>
 <p>This project is licensed under the <b>Creative Commons Attribution 4.0 International License (CC BY 4.0)</b>.</p>
