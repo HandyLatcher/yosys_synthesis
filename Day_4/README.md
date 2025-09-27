@@ -272,7 +272,7 @@ Run **Gate-Level Simulation (GLS)** on the `bad_mux` module.
 
 ---
 
-# Lab 6: Blocking Assignment Caveat ⚠️
+## Lab 6: Blocking Assignment Caveat ⚠️
 
 **Objective:**  
 Demonstrate a common pitfall when using **blocking assignments (`=`)** in combinational logic.
