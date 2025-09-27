@@ -1,4 +1,4 @@
-# 🔧 RTL Design and Synthesis using Sky130 PDK
+# 🔧RTL Design and Synthesis using Sky130 PDK
 
 A complete hands-on journey into RTL design — starting from Verilog fundamentals to synthesis and optimization. The repository is organized into day-wise modules, each containing exercises, lab files, and supporting notes.
 
@@ -10,29 +10,19 @@ A complete hands-on journey into RTL design — starting from Verilog fundamenta
 
 ---
 
-## 📖 Contents
-
-* [About the Workshop](https://github.com/HandyLatcher/yosys_synthesis/tree/main#-about-the-workshop)
-* [Prerequisites](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-prerequisites)
-* [Workshop Roadmap](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-workshop-roadmap)
-* [License](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-license)
-* [Acknowledgements](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-acknowledgements)
-
----
-
 ## 📘 About the Workshop
 
 This workshop is designed for students, enthusiasts, and engineers interested in:
 
-* Writing and simulating Verilog RTL
-* Functional verification and waveform analysis using **Icarus Verilog** and **GTKWave**
-* Performing **logic synthesis with Yosys** and the **Sky130 open-source PDK**
-* Exploring digital design concepts including:
+* 🖥️ Writing and simulating Verilog RTL
+* 🔍 Functional verification and waveform analysis using **Icarus Verilog** and **GTKWave**
+* ⚡ Performing **logic synthesis with Yosys** and the **Sky130 open-source PDK**
+* 🧠 Exploring digital design concepts including:
 
-  * Testbenches and verification flow
-  * Timing libraries and standard cell models
-  * Verilog coding techniques for flip-flops
-  * Synthesis-driven design and optimization
+  * 🧪 Testbenches and verification flow
+  * ⏱️ Timing libraries and standard cell models
+  * 🔄 Verilog coding techniques for flip-flops
+  * 🎯 Synthesis-driven design and optimization
 
 ---
 
@@ -40,10 +30,10 @@ This workshop is designed for students, enthusiasts, and engineers interested in
 
 The following background and setup are recommended:
 
-* Basic knowledge of digital logic (gates, flip-flops, multiplexers, etc.)
-* Familiarity with Linux shell commands
-* A Linux machine (or WSL for Windows/macOS users)
-* Installed tools: `git`, `iverilog`, `gtkwave`, `yosys`, and a text/code editor
+* 🧩 Basic knowledge of digital logic (gates, flip-flops, multiplexers, etc.)
+* 💻 Familiarity with Linux shell commands
+* 🖥️ A Linux machine (or WSL for Windows/macOS users)
+* 🛠️ Installed tools: `git`, `iverilog`, `gtkwave`, `yosys`, and a text/code editor
 
 ---
 
@@ -51,17 +41,17 @@ The following background and setup are recommended:
 
 The workshop is divided into multiple days, each with a dedicated folder and README:
 
-* **Day 1** → RTL design introduction & synthesis basics
-* **Day 2** → Timing libraries, synthesis flow, and flip-flop coding techniques
-* **Day 3** → Combinational and sequential logic optimization
-* **Day 4** → Gate-level simulation (GLS), blocking vs. non-blocking, synthesis-simulation mismatch
-* **Day 5** → Optimization strategies in synthesis
+* **Day 1** → RTL design introduction & synthesis basics 📄
+* **Day 2** → Timing libraries, synthesis flow, and flip-flop coding techniques ⏱️
+* **Day 3** → Combinational and sequential logic optimization ⚡
+* **Day 4** → Gate-level simulation (GLS), blocking vs. non-blocking, synthesis-simulation mismatch 🔍
+* **Day 5** → Optimization strategies in synthesis 🎯
 
-Each day includes:
+Each day includes:  
 ✔️ Concept explanations  
 ✔️ Step-by-step lab exercises with Verilog code  
-✔️ Screenshots and waveform analysis  
-✔️ Practical design best practices
+✔️ Screenshots and waveform analysis 📊  
+✔️ Practical design best practices 🧠
 
 ---
 
@@ -70,24 +60,24 @@ Each day includes:
 <h2>🙏 Acknowledgements</h2>
 
 <p>Special thanks to:<br>
-<a href="https://www.linkedin.com/in/shon-taware/details/skills/">Shon Taware</a> for RTL design insights<br>
-<a href="https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/">Kunal Ghosh</a> for leading open-source VLSI education initiatives<br>
-Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools
+<a href="https://www.linkedin.com/in/shon-taware/details/skills/">Shon Taware</a> for RTL design insights 💡<br>
+<a href="https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/">Kunal Ghosh</a> for leading open-source VLSI education initiatives 🚀<br>
+Open-source contributors of <b>Yosys</b>, <b>Sky130 PDK</b>, and related tools 🛠️
 </p>
 
 <h2>🔗 Useful Links</h2>
 
 <p>
 
-[Yosys](https://github.com/YosysHQ/yosys) – RTL synthesis  
-[Icarus Verilog](https://github.com/steveicarus/iverilog) – Verilog simulation  
-[SkyWater 130nm Open PDK](https://github.com/google/skywater-pdk) – Open-source process design kit
+[Yosys](https://github.com/YosysHQ/yosys) – RTL synthesis ⚡<br>
+[Icarus Verilog](https://github.com/steveicarus/iverilog) – Verilog simulation 🖥️<br>
+[SkyWater 130nm Open PDK](https://github.com/google/skywater-pdk) – Open-source process design kit 🧩
 
 </p>
 
 <h2>📜 License</h2>
 <p>This project is licensed under the <b>Creative Commons Attribution 4.0 International License (CC BY 4.0)</b>.</p>
 
-<p>👨‍💻 Author: <i>Aryansh Mehrotra</i></p>
+<p>👨‍💻 Author: <i>Aryansh Mehrotra</i> ✨</p>
 
 </div>
