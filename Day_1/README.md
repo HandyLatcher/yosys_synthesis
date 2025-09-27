@@ -416,7 +416,7 @@ write_verilog -noattr -norename good_mux_netlist.v
 
 --- 
 
-# Summary🔄
+## Summary🔄
 
 * Explored the workflow of digital design, including writing Verilog code, creating testbenches, and running simulations.
 
