@@ -115,7 +115,7 @@ end
 
 ## **Labs**
 
-# Lab 1: 2-to-1 Multiplexer Using Ternary Operator 🔹
+### Lab 1: 2-to-1 Multiplexer Using Ternary Operator 🔹
 
 **Objective:**  
 Implement a simple 2:1 multiplexer using a ternary operator in Verilog.
@@ -144,7 +144,7 @@ endmodule
 
 ---
 
-## Lab 2: Synthesizing the 2:1 MUX Using Yosys ⚡
+### Lab 2: Synthesizing the 2:1 MUX Using Yosys ⚡
 
 **Objective:**  
 Generate a **gate-level netlist** for the 2:1 multiplexer from Lab 1 using the Yosys synthesis flow.
@@ -181,7 +181,7 @@ write_verilog -noattr ternary_operator_mux_net.v
 
 ---
 
-## Lab 3: Gate-Level Simulation (GLS) of the MUX ⚙️
+### Lab 3: Gate-Level Simulation (GLS) of the MUX ⚙️
 
 **Objective:**  
 Run a **Gate-Level Simulation (GLS)** on the synthesized 2:1 multiplexer to verify its functionality after synthesis.
@@ -209,7 +209,7 @@ iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v ternary_operator_mux.v
 ---
 
 
-## Lab 4: Bad MUX Example ⚠️
+### Lab 4: Bad MUX Example ⚠️
 
 **Objective:**  
 Highlight common mistakes when coding a multiplexer in Verilog and demonstrate the corrected approach.
@@ -257,7 +257,7 @@ end
 
 ---
 
-## Lab 5: Gate-Level Simulation of bad_mux ⚠️
+### Lab 5: Gate-Level Simulation of bad_mux ⚠️
 
 **Objective:**  
 Run **Gate-Level Simulation (GLS)** on the `bad_mux` module.  
@@ -272,14 +272,14 @@ Run **Gate-Level Simulation (GLS)** on the `bad_mux` module.
 
 ---
 
-## Lab 6: Blocking Assignment Caveat ⚠️
+### Lab 6: Blocking Assignment Caveat ⚠️
 
 **Objective:**  
 Demonstrate a common pitfall when using **blocking assignments (`=`)** in combinational logic.
 
 ---
 
-## 🚫 Problematic Verilog Code:
+### 🚫 Problematic Verilog Code:
 ```verilog
 module blocking_caveat (
     input a,
@@ -302,7 +302,7 @@ endmodule
 
 ---
 
-## ✅ Corrected Verilog Code:
+### ✅ Corrected Verilog Code:
 
 ```verilog
 always @ (*) begin
@@ -329,7 +329,7 @@ end
 ---
 
 
-## Lab 7: Synthesis of the Blocking Caveat Module ⚡
+### Lab 7: Synthesis of the Blocking Caveat Module ⚡
 
 **Objective:**  
 Synthesize the **corrected `blocking_caveat` module** to generate a gate-level netlist and observe its behavior.
