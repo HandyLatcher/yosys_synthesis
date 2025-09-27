@@ -306,7 +306,8 @@ endmodule
 **Lab 8: Synthesis Result of Lab 7**
 
 <p align="center">
-  <img width="800" alt="Incomplete Case Statement Output" src="https://github.com/user-attachments/assets/4cb239e
+  <img src="FULL_IMAGE_URL_HERE" width="800" alt="Incomplete Case Statement Output" />
+</p>
 
 ---
 
@@ -316,7 +317,7 @@ endmodule
 Demonstrate how **incomplete assignments within a case statement** can lead to **unintended latches** on outputs.
 
 **Verilog Code:**
-```verilog
+```
 module partial_case_assign (
     input i0, 
     input i1, 
