@@ -124,9 +124,9 @@ The `flatten` command in Yosys collapses the hierarchy, allowing whole-design op
 
 **Sub Module📂**
 
-(1)It is used when we have multiple instances of same module
+(1) It is used when we have multiple instances of same module
 
-(2)It is also used for Divide and Conquer technique
+(2) It is also used for Divide and Conquer technique
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/44f913e8-d223-474d-a20f-dd9a10f45775" width="800" />
