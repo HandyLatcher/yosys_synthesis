@@ -44,10 +44,9 @@ The optimizer scans the design code to detect signals or variables that never ch
 * **Higher Speed:** Minimizes propagation delays, resulting in faster operation.
 * **Better Hardware Utilization:** Requires fewer resources such as gates and registers.
 
----
 
 <p align="center">
-  <img width="800" alt="Image" src="https://github.com/user-attachments/assets/fa21ca04-bfbf-432e-84fd-afef7290d0f0" />
+  <img width="800" alt="Summary Image" src="https://github.com/user-attachments/assets/64930733-a5b0-4ffb-8788-72730211d663" />
 </p>
 
 ---
