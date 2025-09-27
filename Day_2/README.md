@@ -292,8 +292,8 @@ show
 
 ---
 
-**A special opimization💾**
-Multiplier without any hardware with just wires.
+# A special opimization💾
+Multiplier without any hardware and with just wires.
 
 
 <p align="center">
@@ -303,7 +303,7 @@ Multiplier without any hardware with just wires.
 ---
 
 # Summary 📚
-This guide covers essential aspects of Verilog design, including module organization, flip-flop coding styles, simulation with Icarus Verilog, and synthesis with Yosys. Practice these workflows to strengthen your RTL design and digital synthesis skills.
+This guide covers essential aspects of Verilog design, including module organization, flip-flop coding styles, simulation with Icarus Verilog, and synthesis with Yosys. Practice these workflows to strengthen RTL design and digital synthesis skills.
 
 
 
