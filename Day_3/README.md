@@ -12,7 +12,7 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 ---
 
-# Day 3: Combinational and Sequential Optimization ⚡
+## Day 3: Combinational and Sequential Optimization ⚡
 
 Day 3 focuses on optimization techniques for combinational and sequential circuits, covering:
 
@@ -31,7 +31,7 @@ The session equips you with practical strategies to optimize circuits for speed,
 
 ---
 
-### 1. Constant Propagation✨
+## 1. Constant Propagation✨
 
 In the context of **VLSI design**, constant propagation is a form of **compiler-level optimization** where variables that always hold fixed values are substituted directly with those constants during synthesis. This process helps streamline the design and improve overall efficiency.
 
@@ -52,7 +52,7 @@ The optimizer scans the design code to detect signals or variables that never ch
 ---
 
 
-### 2. State Optimization🔧
+## 2. State Optimization🔧
 
 In **integrated circuit (IC) design**, state optimization is applied to **finite state machines (FSMs)** to achieve leaner and more efficient implementations. The process targets reducing redundant states, refining encoding schemes, and minimizing the associated logic footprint.
 
@@ -71,7 +71,7 @@ In **integrated circuit (IC) design**, state optimization is applied to **finite
 
 ---
 
-### 3. Cloning🛠️
+## 3. Cloning🛠️
 
 In digital circuit design, **cloning** refers to the practice of replicating a logic element or module to enhance overall system behavior. By duplicating certain components, designers can balance loads, shorten interconnect lengths, and achieve improvements in both timing and power efficiency.
 
@@ -98,7 +98,7 @@ In digital circuit design, **cloning** refers to the practice of replicating a l
 ---
 
 
-### 4. Retiming
+## 4. Retiming
 
 In digital circuit design, **retiming** is an optimization strategy aimed at enhancing performance by strategically relocating registers (flip-flops) without altering the circuit’s functional behavior. This technique helps reduce critical path delays and can improve overall timing and power efficiency.
 
@@ -124,9 +124,9 @@ In digital circuit design, **retiming** is an optimization strategy aimed at enh
 ---
 
 
-### 5. Labs on Optimization 🛠️
+## 5. Labs on Optimization 🛠️
 
-#### **Lab 1: Conditional Assignment Check**
+### **Lab 1: Conditional Assignment Check**
 
 **Verilog Code:**
 
@@ -152,11 +152,11 @@ endmodule
 
 ### **Yosys Synthesis Workflow for `opt_check` Module** 🛠️
 
-Follow these steps to synthesize, optimize, and map your Verilog design using Yosys:
+Follow these steps to synthesize, optimize, and map the Verilog design using Yosys:
 
 ---
 
-#### **Step 1: Load the Standard Cell Library** 📚
+### **Step 1: Load the Standard Cell Library** 📚
 
 ```tcl
 read_liberty -lib ../generalpath/your_library.lib
@@ -166,7 +166,7 @@ read_liberty -lib ../generalpath/your_library.lib
 
 ---
 
-#### **Step 2: Read the Verilog Design** 💻
+### **Step 2: Read the Verilog Design** 💻
 
 ```tcl
 read_verilog check.v
@@ -176,7 +176,7 @@ read_verilog check.v
 
 ---
 
-#### **Step 3: Set the Top Module for Synthesis** 🎯
+### **Step 3: Set the Top Module for Synthesis** 🎯
 
 ```tcl
 synth -top opt_check
@@ -186,7 +186,7 @@ synth -top opt_check
 
 ---
 
-#### **Step 4: Optimize and Clean the Design** ✨
+### **Step 4: Optimize and Clean the Design** ✨
 
 ```tcl
 opt_clean -purge
@@ -196,7 +196,7 @@ opt_clean -purge
 
 ---
 
-#### **Step 5: Map Logic to Technology Library** 🔧
+### **Step 5: Map Logic to Technology Library** 🔧
 
 ```tcl
 abc -liberty ../generalpath/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -207,7 +207,7 @@ abc -liberty ../generalpath/sky130_fd_sc_hd__tt_025C_1v80.lib
 ---
 
 
-#### **Step 6: Visualize the Network** 👀
+### **Step 6: Visualize the Network** 👀
 
 ```tcl
 show
@@ -449,7 +449,7 @@ endmodule
 
 ---
 
-### **Summary of Optimization Techniques in Digital Design** 🛠️⚡
+## **Summary of Optimization Techniques in Digital Design** 🛠️⚡
 
 **Focus:**
 Optimization strategies for **combinational and sequential circuits**, demonstrated through **practical Verilog labs**.
@@ -476,15 +476,3 @@ Optimization strategies for **combinational and sequential circuits**, demonstra
   * Code snippets and output images demonstrating each optimization technique
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
