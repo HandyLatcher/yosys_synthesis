@@ -7,15 +7,18 @@ A complete hands-on journey into RTL design — starting from Verilog fundamenta
   <img src="https://img.shields.io/badge/VSD-Program-orange" />
   <img src="https://img.shields.io/badge/Open--Source-Journey-success?logo=opensourceinitiative&logoColor=white" />
 </p>
+
 ---
 
 ## 📖 Contents
 
-* [About the Workshop](#about-the-workshop)
-* [Prerequisites](#prerequisites)
-* [Workshop Roadmap](#workshop-roadmap)
-* [License](#license)
-* [Acknowledgements](#acknowledgements)
+## 📖 Contents
+
+* [About the Workshop](https://github.com/HandyLatcher/yosys_synthesis/tree/main#-about-the-workshop)
+* [Prerequisites](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-prerequisites)
+* [Workshop Roadmap](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-workshop-roadmap)
+* [License](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-license)
+* [Acknowledgements](https://github.com/HandyLatcher/yosys_synthesis/tree/main#%EF%B8%8F-acknowledgements)
 
 ---
 
@@ -64,11 +67,7 @@ Each day includes:
 
 ---
 
-## 📜 License
-
-This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
-
----
+<p align="center">
 
 ## 🙏 Acknowledgements
 
@@ -76,6 +75,18 @@ Special thanks to:
 
 * [**Shon Taware**](https://www.linkedin.com/in/shon-taware/details/skills/) for RTL design insights  
 * [**Kunal Ghosh**](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) for leading open-source VLSI education initiatives  
-* Open-source contributors of **Yosys**, **Sky130 PDK**, and related tools  
+* Open-source contributors of **Yosys**, **Sky130 PDK**, and related tools
+
+## 🔗 Useful Links
+
+- [Yosys](http://www.clifford.at/yosys/) – RTL synthesis  
+- [Icarus Verilog](http://iverilog.icarus.com/) – Verilog simulation  
+- [SkyWater 130nm Open PDK](https://github.com/google/skywater-pdk) – Open-source process design kit
+
+## 📜 License
+
+This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 👨‍💻 Author: *Aryansh Mehrotra*
+
+</p>
