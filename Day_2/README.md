@@ -284,7 +284,7 @@ show
 
 ---
 
-**Icarus Verilog Simulation for synchronous reset:**
+## Icarus Verilog Simulation for synchronous reset:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7d62de27-1679-4800-94be-e5292c37451e" width="800" />
@@ -292,7 +292,7 @@ show
 
 ---
 
-## A special opimization💾
+## A special opimization:💾
 Multiplier without any hardware and with just wires.
 
 
@@ -304,12 +304,6 @@ Multiplier without any hardware and with just wires.
 
 # Summary 📚
 This guide covers essential aspects of Verilog design, including module organization, flip-flop coding styles, simulation with Icarus Verilog, and synthesis with Yosys. Practice these workflows to strengthen RTL design and digital synthesis skills.
-
-
-
-
-
-
 
 
 
