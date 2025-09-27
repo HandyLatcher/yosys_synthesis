@@ -258,7 +258,7 @@ endmodule
 
 ---
 
-**Lab 6: Synthesis Result of Lab 5**
+## Lab 6: Synthesis Result of Lab 5
 
 <p align="center">
   <img width="800" alt="Complete Case Statement GLS Output" src="https://github.com/user-attachments/assets/690a0544-87d7-4edd-adc5-6660cb87ca09" />
