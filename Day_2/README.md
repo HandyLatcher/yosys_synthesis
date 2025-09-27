@@ -12,7 +12,7 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 ---
 
-# Day 2: Timing, Synthesis & Flip-Flop Optimization ⏱️
+#### Day 2: Timing, Synthesis & Flip-Flop Optimization ⏱️
 
 Day 2 of the RTL Workshop covers three key topics:
 
@@ -29,7 +29,7 @@ The session provides a clear understanding of timing library usage, synthesis me
 
 ---
 
-# Timing Libraries: SKY130 PDK Overview ⚙️
+#### Timing Libraries: SKY130 PDK Overview ⚙️
 
 **SKY130 PDK**  
 The SKY130 Process Design Kit is an open-source PDK based on SkyWater Technology's 130nm CMOS process. It provides essential models and libraries for IC design, including timing, power, and process variation data.  
@@ -43,7 +43,7 @@ This naming convention specifies the process, voltage, and temperature condition
 
 ---
 
-# Opening and Exploring the `.lib` File 📄
+## Opening and Exploring the `.lib` File 📄
 
 To open the `sky130_fd_sc_hd__tt_025C_1v80.lib` file:
 
@@ -59,9 +59,9 @@ gedit sky130_fd_sc_hd__tt_025C_1v80.lib
 
 ---
 
-# Hierarchical vs. Flattened Synthesis ⚙️
+## Hierarchical vs. Flattened Synthesis ⚙️
 
-## Hierarchical Synthesis
+#### Hierarchical Synthesis
 
 **Definition:**  
 Retains the module hierarchy as defined in RTL, synthesizing modules separately.
@@ -91,7 +91,7 @@ Code:
 
 ---
 
-## Flattened Synthesis ⚡
+#### Flattened Synthesis ⚡
 
 **Definition:**  
 Merges all modules into a single flat netlist, eliminating hierarchy.
@@ -134,13 +134,13 @@ The `flatten` command in Yosys collapses the hierarchy, allowing whole-design op
 
 ---
 
-# Flip-Flop Coding Styles ⚡
+## Flip-Flop Coding Styles ⚡
 
 Flip-flops are fundamental sequential elements in digital design, used to store binary data. Below are efficient coding styles for different reset/set behaviors.
 
 ---
 
-## Asynchronous Reset D Flip-Flop 🛑
+#### Asynchronous Reset D Flip-Flop 🛑
 
 ```verilog
 module dff_asyncres (
@@ -162,7 +162,7 @@ endmodule
 
 ---
 
-## Asynchronous Set D Flip-Flop ⚡
+#### Asynchronous Set D Flip-Flop ⚡
 
 ```verilog
 module dff_async_set (
@@ -183,7 +183,7 @@ endmodule
 
 ---
 
-## Synchronous Reset D Flip-Flop ⏱️
+#### Synchronous Reset D Flip-Flop ⏱️
 
 ```verilog
 module dff_syncres (
@@ -205,9 +205,9 @@ endmodule
 
 ---
 
-# Simulation and Synthesis Workflow ⚙️
+## Simulation and Synthesis Workflow ⚙️
 
-## Icarus Verilog Simulation 🖥️
+#### Icarus Verilog Simulation 🖥️
 
 **For asynchronous reset**:
 
@@ -233,9 +233,9 @@ gtkwave tb_dff_asyncres.vcd
 </p>
 
 
-# Synthesis with Yosys ⚙️
+## Synthesis with Yosys ⚙️
 
-## Step-by-Step Workflow 🛠️
+#### Step-by-Step Workflow 🛠️
 
 1. **Start Yosys**
 
@@ -284,7 +284,7 @@ show
 
 ---
 
-## Icarus Verilog Simulation for synchronous reset:
+#### Icarus Verilog Simulation for synchronous reset:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7d62de27-1679-4800-94be-e5292c37451e" width="800" />
@@ -292,7 +292,7 @@ show
 
 ---
 
-## A special opimization:💾
+#### A special opimization:💾
 Multiplier without any hardware and with just wires.
 
 
@@ -302,7 +302,7 @@ Multiplier without any hardware and with just wires.
 
 ---
 
-# Summary 📚
+## Summary 📚
 This guide covers essential aspects of Verilog design, including module organization, flip-flop coding styles, simulation with Icarus Verilog, and synthesis with Yosys. Practice these workflows to strengthen RTL design and digital synthesis skills.
 
 
