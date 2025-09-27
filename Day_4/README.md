@@ -12,7 +12,7 @@ This week covers the fundamentals of register-transfer level (RTL) design, inclu
 
 ---
 
-# **Day 4: Gate-Level Simulation, Verilog Assignments, and Synthesis-Simulation Mismatch** 🛠️⚡
+## **Day 4: Gate-Level Simulation, Verilog Assignments, and Synthesis-Simulation Mismatch** 🛠️⚡
 
 (1) **Gate-Level Simulation (GLS)**
 Covers how synthesized gate-level netlists behave and the methods to simulate them accurately.
@@ -211,7 +211,7 @@ iverilog /path/to/primitives.v \
 ---
 
 
-## Lab 4: Bad MUX Example (Common Pitfalls) ⚠️
+## Lab 4: Bad MUX Example ⚠️
 
 **Objective:**  
 Highlight common mistakes when coding a multiplexer in Verilog and demonstrate the corrected approach.
